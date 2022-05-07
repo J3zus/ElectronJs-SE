@@ -1,0 +1,19 @@
+{
+  "name": "salud",
+  "version": "1.0.0",
+  "description": "Aplicacion de salud, y medida del IMC",
+  "main": "MainProcess/Main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "J3s-Fuentes",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.0",
+    "electron-builder": "^22.10.5",
+    "save-dev": "0.0.1-security"
+  }
+}

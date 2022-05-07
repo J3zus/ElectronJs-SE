@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../MainProcess/Main.css">
+    <script type="text/javascript" src="../MainProcess/calc.js"></script> <!-- Le indicamos el archivo js donde vamos a manipular los datos -->
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <H1>Calcula tu IMC</H1>
+
+    <form action="">
+        <div class="DivCajas">
+            <Label>Estatura(m):</Label>
+            <input type="text" id="estatura"><br><br>
+    
+            <Label>Peso(kg):</Label>
+            <input type="text" id="peso">
+
+        </div>
+
+        <div class="DivTabla">
+            <img src="../MainProcess/src/Tabla.png" alt="Cuadro de IMC'S" width="450" height="200">
+        </div>
+
+        <div class="DivEtiquetas">
+            <label>Tu IMC es:</label><br>
+            <label id="resultado"  class="IMC" >0</label><br>
+        </div>
+
+        
+
+        <div class="DivBotones">
+            <button type="button" onclick="GetData()">Calcular</button>
+            <button type="button" onclick="ClearData()">Limpiar</button>
+        </div>
+
+    </form>
+    
+</body>
+
+</html>
